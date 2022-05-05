@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 var cors = require('cors')
 
 const app = express()
-const port = 3000;
+const port = process.env.PORT || 5001;
 
 const categoryRoute = require("./src/route/categoryRoute");
 const moneyRoute = require("./src/route/moneyRoute");
