@@ -7,4 +7,3 @@ Tech Stacks: Node.js, Express.js, Mongoose, MongoDB, Rest API
 
 - npm install
 - npm start
-- 
