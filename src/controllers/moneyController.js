@@ -69,7 +69,6 @@ module.exports.getAllTransaction_get = async (req, res, next) => {
         const list = await MoneySchema.find().select({
             _id: 0,
             __v: 0,
-            type: 0,
         }).exec();
         res.statusCode = 200;
 
