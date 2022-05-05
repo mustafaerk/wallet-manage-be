@@ -31,7 +31,7 @@ app.use((req, res, next) => {
 });
 
 /* DB connection */
-mongoose.connect("mongodb://localhost:27017/wallet", {
+mongoose.connect("mongodb+srv://mstf:1aT3HJu2eHwU24H2@cluster0.pydk1.mongodb.net/wallet-chain?retryWrites=true&w=majority", {
     useNewUrlParser: true,
 });
 
